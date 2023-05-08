@@ -13,7 +13,7 @@ export function getNavis() {
 
 function addNavis(navis){
     const navisContainer = `
-    <div class="card">
+    <div class="container_card_navis">
         <h1>${navis.name}</h1>
         <div class="imagem-container">
         <img src="https://starwars-visualguide.com/assets/img/starships/${navis.url.replace

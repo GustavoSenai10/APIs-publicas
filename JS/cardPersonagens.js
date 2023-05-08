@@ -22,11 +22,11 @@ function addPrsonagens(personagens){
                 )}.jpg" alt="${personagens.name}">
         </div>
         <div class="info-container">
-            <h2>ABOUT</h2>
             <div class="info-contant">
                 <h3>Nome: ${personagens.name}</h3>
                 <h3>idade: ${personagens.birth_year}</h3>
-                <h3>Gender:${personagens.gender}</h3>
+                <h3>Gender: ${personagens.gender}</h3>
+                <h3>height: ${personagens.height}</h3>
             </div>
         
         </div>

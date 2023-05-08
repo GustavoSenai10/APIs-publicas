@@ -1,15 +1,39 @@
 /* Planetas*/
 .container-planetas{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: black;
-    color: white;
+    min-height:130vh;
+    color: black;
+    padding-bottom: 1%;
+    background:black;
 }
 .card_planetas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    gap: 1%;
+    padding: 3%;
+   align-items: center;
+   justify-content: center;
+   z-index: 3;
+}
+.container_card_planetas{
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: 1%;
+    color: white;
+    gap: 5%;
+    border:3px solid green;
+    background-color: black;
+}
+.imagem-container-Planeta img{
+    height: 30vh;
+    width: 25vh;
 
-    height: 40vh;
-    width: 20vw;
-    background-color: aqua;
 }

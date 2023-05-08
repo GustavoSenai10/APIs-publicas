@@ -2,28 +2,36 @@
     display: flex;
     min-height:130vh;
     color: black;
+    background:black;
 }
 .card_navis{
-
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
-    gap: 15%;
+    gap: 1%;
+    padding: 3%;
+   align-items: center;
+   justify-content: center;
+   
 }
 .container_card_navis{
     height: 500px;
     width: 300px;
     text-align: center;
-    justify-content: center;
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 20px;
-    padding: 3%;
+    justify-content: space-evenly;
+    padding: 2%;
+    margin: 1%;
     color: white;
     gap: 5%;
-    border:1px solid yellow;
+    border:3px solid red;
     background-color: black;
+}
+.info-contant{
+    text-align: left;
 }
 .imagem-container img{
     height: 25vh;

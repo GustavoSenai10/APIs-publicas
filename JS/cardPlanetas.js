@@ -13,11 +13,10 @@ export function getPlanetas() {
 
 function addPlanetas(planetas){
     const planetasContainer = `
-    <div class="card">
+    <div class="container_card_planetas">
         <h1>${planetas.name}</h1>
         <div class="info-container">
-            <h2>ABOUT</h2>
-            <div class="imagem-container">
+            <div class="imagem-container-Planeta">
             <img src="https://starwars-visualguide.com/assets/img/planets/${planetas.url.replace
             (
                 /\D/g,
