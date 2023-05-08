@@ -1,0 +1,36 @@
+/* Personagens*/
+.container-personagens{
+    display: flex;
+    min-height:130vh;
+    color: black;
+   
+   
+}
+.card_personagens{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    gap: 15%;
+    
+}
+.container_card_personagens{
+    height: 500px;
+    width: 300px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 20px 20px;
+    padding: 3%;
+    color: white;
+    gap: 5%;
+    border:1px solid yellow;
+    background-color: black;
+    
+}
+.imagem-container img{
+    height: 25vh;
+    width: 20vh;
+
+}

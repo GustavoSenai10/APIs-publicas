@@ -1,0 +1,15 @@
+/* Planetas*/
+.container-planetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+.card_planetas{
+
+    height: 40vh;
+    width: 20vw;
+    background-color: aqua;
+}
